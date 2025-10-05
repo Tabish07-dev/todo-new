@@ -1,5 +1,5 @@
-import connectToDB from "../../../lib/mongodb";
-import Task from "../../../models/task";
+import connectToDB from "@/lib/mongodb";
+import Task from "@/models/task";
 import { NextResponse } from "next/server";
 
 export async function DELETE(request, { params }) {
